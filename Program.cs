@@ -5,11 +5,22 @@ class Program
 {
     static void Main(string[] args)
     {
-        int number;
+        int firstNumber;
+        string choice;
+        int newNumber;
         int replaceNumber;
         int answer = num01;
+        bool whenToEnd = false;
 
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Type in your first number");
+        firstNumber = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("What will you do now?\n.+\n.-\n.*\n./");
+        if 
+
+        while (whenToEnd = true){
+        Console.WriteLine("Type in your next number");
+        newNumber = Convert.ToInt32(Console.ReadLine());
+        }
 
         Console.ReadKey();
     }
