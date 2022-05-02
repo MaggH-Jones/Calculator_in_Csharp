@@ -9,3 +9,13 @@ class Program
         Console.ReadKey();
     }
 }
+
+public class calculator
+{
+    public int plus()
+    {
+        int answer;
+
+        return answer;
+    }
+}
