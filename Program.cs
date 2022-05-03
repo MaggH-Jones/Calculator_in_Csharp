@@ -35,20 +35,17 @@ class Program
             Environment.Exit(0);
         }
 
-        while (whenToEnd = true){
-        Console.WriteLine("Type in your next number");
-        newNumber = Convert.ToInt32(Console.ReadLine());
+        while (whenToEnd = true)
+        {
+            Console.WriteLine("Type in your next number");
+            newNumber = Convert.ToInt32(Console.ReadLine());
         }
 
         Console.ReadKey();
     }
-}
-
-public class calculator
-{
     public int cal(int num01, int num02)
     {
-        int answer;
+        int answer = 1;
 
         return answer;
     }
