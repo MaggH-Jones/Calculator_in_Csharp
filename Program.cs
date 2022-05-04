@@ -8,7 +8,7 @@ class Program
         int firstNumber = 0;
         string choice;
         int newNumber = 0;
-        int replaceNumber;
+        int replaceNumber = 0;
         bool whenToEnd = false;
 
         Console.WriteLine("Type in your first number");
@@ -61,25 +61,25 @@ class Program
 
         Console.ReadKey();
     }
-    public int plus(int num01, int num02)
+    public static int plus(int num01, int num02)
     {
         int answer = num01 + num02;
 
         return answer;
     }
-    public int minus(int num01, int num02)
+    public static int minus(int num01, int num02)
     {
         int answer = num01 - num02;
 
         return answer;
     }
-    public int gange(int num01, int num02)
+    public static int gange(int num01, int num02)
     {
         int answer = num01 * num02;
 
         return answer;
     }
-    public int divider(int num01, int num02)
+    public static int divider(int num01, int num02)
     {
         int answer = num01 / num02;
 
