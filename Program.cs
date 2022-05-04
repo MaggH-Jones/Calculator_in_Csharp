@@ -5,11 +5,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        int firstNumber;
+        int firstNumber = 0;
         string choice;
-        int newNumber;
+        int newNumber = 0;
         int replaceNumber;
-        int answer;
         bool whenToEnd = false;
 
         Console.WriteLine("Type in your first number");
@@ -18,6 +17,8 @@ class Program
         choice = Console.ReadLine();
         if (choice == "+")
         {
+            newNumber = Convert.ToInt32(Console.ReadLine());
+            replaceNumber = Program.plus(firstNumber, newNumber);
             
         }
         else if (choice == "-")
@@ -35,6 +36,7 @@ class Program
             Console.ReadKey();
             Environment.Exit(0);
         }
+        Console.WriteLine(replaceNumber);
 
         Console.WriteLine("Will you add anouther number?");
         string quit = Console.ReadLine();
